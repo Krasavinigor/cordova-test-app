@@ -13,19 +13,14 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "devDependencies": {
-    "com-idnow-plugin": "0.0.41",
+    "cordova": "9.0.0",
     "cordova-ios": "^6.2.0"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {},
-      "cordova-plugin-code-push": {},
-      "com-idnow-plugin": {
-        "CAMERA_USAGE_DESCRIPTION": "Needs camera access for video streaming and identification.",
-        "MICROPHONE_USAGE_DESCRIPTION": "Needs microphone access for video identification"
-      }
     },
     "platforms": [
+      "android",
       "ios"
     ]
   },
