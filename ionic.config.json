@@ -6,5 +6,7 @@
     }
   },
   "type": "custom",
-  "hooks": {}
+  "hooks": {
+    "build:before": "./scripts/build-before.js"
+  }
 }
