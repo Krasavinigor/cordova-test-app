@@ -19,10 +19,7 @@
   },
   "cordova": {
     "plugins": {},
-    "platforms": [
-      "android",
-      "ios"
-    ]
+    "platforms": []
   },
   "dependencies": {}
 }
