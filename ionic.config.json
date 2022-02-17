@@ -1,0 +1,10 @@
+{
+  "name": "POC App",
+  "integrations": {
+    "cordova": {
+      "enabled": true
+    }
+  },
+  "type": "custom",
+  "hooks": {}
+}
